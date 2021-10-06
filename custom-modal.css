@@ -1,0 +1,35 @@
+#modal h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  color: var(--black, #020202);
+}
+
+#modal p {
+  margin-bottom: 2.4rem;
+  color: var(--grey-dark, #666);
+}
+
+#modal input {
+  margin-bottom: 4rem;
+  padding: 1.3rem 1.6rem;
+  border: 0.2rem solid var(--blue, blue);
+  outline: none;
+  width: min(70%, 30.2rem);
+}
+
+#modal .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#modal .buttons > .button {
+  margin-right: 0.8rem;
+}
+
+#modal .buttons > button,
+#modal .buttons > .button {
+  padding: 1.3rem 3.2rem;
+  cursor: pointer;
+}
